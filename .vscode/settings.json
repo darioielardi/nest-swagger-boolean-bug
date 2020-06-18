@@ -1,0 +1,16 @@
+{
+  "deno.enable": false,
+  "sqltools.connections": [
+    {
+      "askForPassword": false,
+      "database": "notes",
+      "driver": "PostgreSQL",
+      "name": "Notes",
+      "password": "secret",
+      "port": 5432,
+      "previewLimit": 50,
+      "server": "localhost",
+      "username": "postgres"
+    }
+  ]
+}
